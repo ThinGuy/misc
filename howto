@@ -1,4 +1,4 @@
-#watch to programs with watch
+#watch two programs with watch
 watch "du -h /etc/hosts && df -h"
 
 
