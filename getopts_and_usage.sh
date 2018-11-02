@@ -85,5 +85,5 @@ EOF
 # Parse the Args
 parseArgs "$@"
 
-#Bow do stuff based on arguments
+#Now do stuff based on arguments
 [[ $A_ARG= "AOO" ]] && echo "The -A option was set to the default" || echo "The -A option was set to $A_ARG"
