@@ -69,13 +69,13 @@ Options:
   -b            : Explalantion of option b
                   Default = Default setting if option b is not set
 
-  -C            Explalantion of option C
+  -C            :  Explalantion of option C
                   Default = false
 
-  -c            Explalantion of option c
+  -c            : Explalantion of option c
                   Default = true
 
-  -h            This usage message
+  -h            : This usage message
   
  
 Copyright (c) 2016 Craig Michael Bender.. All rights reserved.
