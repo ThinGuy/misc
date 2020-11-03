@@ -1,13 +1,11 @@
 #!/bin/bash
 ##############################################################################
-# getopts_and_usage.sh
-# Bash Shell Script Example with getops and usage
-#                                                          Rev: 1.0
-#                                                       Author: Craig Bender
-#                                                         date: 10/07/2014
-# 
-# Function: Provides a script example to run with options
-# Copyright (c) 2016 Craig Michael Bender. All rights reserved.
+# Title:         getops+usage.fu
+# Purpose:       Bash getops and usage function
+# Rev:           1.0
+# Author:        Craig Bender
+# Date:          10/07/2016 
+# Copyright ©️:   2016 Craig Michael Bender. All rights reserved.
 ##############################################################################
 #Global Variables and settings
 export TRUE=true
@@ -57,22 +55,22 @@ Short Explanation of what this script does
  
 Options:
 
-  -A            : Explalantion of option A
+  -A            : Explanation of option A
                   Default = Default setting if option A is not set
 
-  -a            : Explalantion of option a
+  -a            : Explanation of option a
                   Default = Default setting if option a is not set
 
-  -B            : Explalantion of option B
+  -B            : Explanation of option B
                   Default = Default setting if option B is not set
 
-  -b            : Explalantion of option b
+  -b            : Explanation of option b
                   Default = Default setting if option b is not set
 
-  -C            :  Explalantion of option C
+  -C            : Explanation of option C
                   Default = false
 
-  -c            : Explalantion of option c
+  -c            : Explanation of option c
                   Default = true
 
   -h            : This usage message
