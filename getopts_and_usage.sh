@@ -46,13 +46,13 @@ parseArgs() {
 }
 
 #usage is the function that displays program help
-usage()
-{
-cat <<EOF
-Usage: $PROGNAME [-h] [-A A_VALUE_EXAMPLE] [-a a_VALUE_EXAMPLE] [-B b_VALUE_EXAMPLE] [-b b_VALUE_EXAMPLE]  [-C] [-c]
- 
-Short Explanation of what this script does 
- 
+example_usage() {
+cat <<EOF 1>&2|sed -r 's/[ \t]*$//g'
+
+${FUNCNAME%%_*} does blah, blah
+
+Usage: ${FUNCNAME%%_*} [-h] [-A A_VALUE_EXAMPLE] [-a a_VALUE_EXAMPLE] [-B b_VALUE_EXAMPLE] [-b b_VALUE_EXAMPLE]  [-C] [-c]
+  
 Options:
 
   -A            : Explanation of option A
@@ -74,9 +74,9 @@ Options:
                   Default = true
 
   -h            : This usage message
-  
- 
-Copyright (c) 2016 Craig Michael Bender.. All rights reserved.
+
+$(printf 'Copyright \u00a9 2016 Craig Michael Bender. All rights reserved.\n\n')
+
 EOF
 }
  
